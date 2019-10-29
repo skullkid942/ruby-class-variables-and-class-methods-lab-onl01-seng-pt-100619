@@ -27,6 +27,7 @@ class Song
   
   def genre_count
     genre_count = {}
+    @@artists each do |artist|
   end 
   
   def artist_count
