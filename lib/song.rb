@@ -3,7 +3,7 @@ class Song
   
   def initialize
     attr_accessor :name :artist :genre 
-    attr_writer :name :artist :genre 
+    
     @@count += 1
     @@genres << genre
     @@artists << artist
